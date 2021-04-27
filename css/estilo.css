@@ -264,6 +264,30 @@ textarea{
     border-radius: 5px;
 }
 
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .5);
+}
+.main-footer .ul-icons .icon-link{
+    color: rgba(255, 255, 255, .5);
+    border-style: none;
+}
+.main-footer .copyright a{
+    color: rgba(255, 255, 255, .5);
+}
+.main-footer li{
+    display: inline-block;
+    list-style-type: none;
+}
+
 /* GRID */
 .row{
     overflow: auto;
