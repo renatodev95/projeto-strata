@@ -56,6 +56,12 @@ blockquote{
     margin: 2em 0;
     padding: .5em 0 .5em 1.5em;
 }
+blockquote p{
+    margin-bottom: .5em;
+}
+blockquote p:last-child{
+    margin-bottom: 0;
+}
 
 code{
     background: #f7f7f7;
@@ -78,6 +84,15 @@ ul, ol{
 }
 li{
     padding-left: .5em;
+}
+
+.hidden{
+    /* Esta técnica vai garantir que o elemento não seja visível para o usuário, mas que os mecanismos de acessibilidade possam reconhecer o que está escrito */
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .ul-alternate{
@@ -214,10 +229,16 @@ textarea{
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
+    font-size: 22px;
+}
+
+.p-header{
+    margin-top: 30px;
+
 }
 
 .main-header-title{
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.5;
     color: white;
     font-weight: normal;
@@ -338,8 +359,6 @@ textarea{
 .col-2-3 + .col-1-3, .col-1-3 + .col-2-3{
     margin-left: 2%;
 }
-
-
 
 
 
