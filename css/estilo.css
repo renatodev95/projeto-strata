@@ -310,6 +310,7 @@ textarea{
 }
 .copyright{
 	list-style: none;
+    font-size: 1.3em;
 }
 .copyright li{
 	display: inline-block;
